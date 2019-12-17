@@ -1,2 +1,6 @@
-# Pipelines-System-
- Design and simulate the Datapath and control unit for a Pipelined System
+# Pipelined-System
+Design and simulate the Datapath and control unit for a Pipelined System.
+
+Once the design is complete, model and simulate each component of the system in Verilog. Verify the functionality of the individual components using stimulus files written in Verilog. After modeling and validation of individual components, simulate the complete system in Verilog. Use a machine-code program to test the simulated system. You must use the assembly code that will be provided in future lectures. You need to store the machine code version of the assembly program provided in the memory unit before testing the design.
+ 
+Use a stimulus file to illustrate the functionality of the simulated system. In the stimulus file you must: i) instantiate the simulated system, ii) provide a clock generator block, iii) initialize all necessary parameters (such as reset) and provide any other necessary input, and iv) display input & output ports of major components such as PC, ADDERS, MEMORY, REGISTER FILE, ALU, and pipeline buffers (inputs and output) on every negative edge of the clock. These values will be used to test your system. It will also show the number of clock cycles required for each instruction.
